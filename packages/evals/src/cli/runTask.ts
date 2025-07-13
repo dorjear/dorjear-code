@@ -12,8 +12,8 @@ import {
 	IpcMessageType,
 	EVALS_SETTINGS,
 	EVALS_TIMEOUT,
-} from "@roo-code/types"
-import { IpcClient } from "@roo-code/ipc"
+} from "@dorjear-code/types"
+import { IpcClient } from "@dorjear-code/ipc"
 
 import {
 	type Run,
@@ -95,7 +95,7 @@ export const processTaskInContainer = async ({
 		"-e HOST_EXECUTION_METHOD=docker",
 	]
 
-	const command = `pnpm --filter @roo-code/evals cli --taskId ${taskId}`
+	const command = `pnpm --filter @dorjear-code/evals cli --taskId ${taskId}`
 	logger.info(command)
 
 	for (let attempt = 0; attempt <= maxRetries; attempt++) {

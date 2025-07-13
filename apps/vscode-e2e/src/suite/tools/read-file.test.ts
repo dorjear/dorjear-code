@@ -4,12 +4,12 @@ import * as path from "path"
 import * as os from "os"
 import * as vscode from "vscode"
 
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@dorjear-code/types"
 
 import { waitFor, sleep } from "../utils"
 import { setDefaultSuiteTimeout } from "../test-utils"
 
-suite("Roo Code read_file Tool", function () {
+suite("Dorjear Code read_file Tool", function () {
 	setDefaultSuiteTimeout(this)
 
 	let tempDir: string

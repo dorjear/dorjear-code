@@ -1,6 +1,6 @@
 {
 	"extension": {
-		"name": "Roo Code",
+		"name": "Dorjear Code",
 		"description": "Целая команда ИИ-разработчиков в вашем редакторе."
 	},
 	"number_format": {
@@ -158,8 +158,8 @@
 	},
 	"mdm": {
 		"errors": {
-			"cloud_auth_required": "Ваша организация требует аутентификации Roo Code Cloud. Войдите в систему, чтобы продолжить.",
-			"organization_mismatch": "Вы должны быть аутентифицированы с учетной записью Roo Code Cloud вашей организации.",
+			"cloud_auth_required": "Ваша организация требует аутентификации Dorjear Code Cloud. Войдите в систему, чтобы продолжить.",
+			"organization_mismatch": "Вы должны быть аутентифицированы с учетной записью Dorjear Code Cloud вашей организации.",
 			"verification_failed": "Не удается проверить аутентификацию организации."
 		}
 	},

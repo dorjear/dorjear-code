@@ -1,5 +1,5 @@
 {
-	"greeting": "Roo Code'a Hoş Geldiniz",
+	"greeting": "Dorjear Code'a Hoş Geldiniz",
 	"task": {
 		"title": "Görev",
 		"seeMore": "Daha fazla gör",
@@ -18,7 +18,7 @@
 		"sharePublicly": "Herkese açık paylaş",
 		"sharePubliclyDescription": "Bağlantıya sahip herkes erişebilir",
 		"connectToCloud": "Buluta bağlan",
-		"connectToCloudDescription": "Görevleri paylaşmak için Roo Code Cloud'a giriş yap",
+		"connectToCloudDescription": "Görevleri paylaşmak için Dorjear Code Cloud'a giriş yap",
 		"sharingDisabledByOrganization": "Paylaşım kuruluş tarafından devre dışı bırakıldı",
 		"shareSuccessOrganization": "Organizasyon bağlantısı panoya kopyalandı",
 		"shareSuccessPublic": "Genel bağlantı panoya kopyalandı"
@@ -222,7 +222,7 @@
 	"autoApprove": {
 		"title": "Otomatik-onay:",
 		"none": "Hiçbiri",
-		"description": "Otomatik onay, Roo Code'un izin istemeden işlemler gerçekleştirmesine olanak tanır. Yalnızca tamamen güvendiğiniz eylemler için etkinleştirin. Daha detaylı yapılandırma <settingsLink>Ayarlar</settingsLink>'da mevcuttur."
+		"description": "Otomatik onay, Dorjear Code'un izin istemeden işlemler gerçekleştirmesine olanak tanır. Yalnızca tamamen güvendiğiniz eylemler için etkinleştirin. Daha detaylı yapılandırma <settingsLink>Ayarlar</settingsLink>'da mevcuttur."
 	},
 	"reasoning": {
 		"thinking": "Düşünüyor",
@@ -240,8 +240,8 @@
 		"countdownDisplay": "{{count}}sn"
 	},
 	"announcement": {
-		"title": "🎉 Roo Code {{version}} Yayınlandı",
-		"description": "Roo Code {{version}}, geliştirme iş akışınızı geliştirmek için güçlü yeni özellikler ve önemli iyileştirmeler getiriyor.",
+		"title": "🎉 Dorjear Code {{version}} Yayınlandı",
+		"description": "Dorjear Code {{version}}, geliştirme iş akışınızı geliştirmek için güçlü yeni özellikler ve önemli iyileştirmeler getiriyor.",
 		"whatsNew": "Yenilikler",
 		"feature1": "<bold>Kod Tabanı İndeksleme Deneysel Aşamadan Mezun Oldu</bold>: Tam kod tabanı indeksleme artık kararlı ve geliştirilmiş arama ve bağlam anlayışı ile üretim kullanımına hazır.",
 		"feature2": "<bold>Yeni Yapılacaklar Listesi Özelliği</bold>: Görevlerinizi yolunda tutmak için entegre yapılacaklar yönetimi ile organize kalın ve geliştirme hedeflerinize odaklanın.",
@@ -284,7 +284,7 @@
 	"profileViolationWarning": "Geçerli profil kuruluşunuzun ayarlarıyla uyumlu değil",
 	"shellIntegration": {
 		"title": "Komut Çalıştırma Uyarısı",
-		"description": "Komutunuz VSCode terminal kabuk entegrasyonu olmadan çalıştırılıyor. Bu uyarıyı gizlemek için <settingsLink>Roo Code ayarları</settingsLink>'nın <strong>Terminal</strong> bölümünden kabuk entegrasyonunu devre dışı bırakabilir veya aşağıdaki bağlantıyı kullanarak VSCode terminal entegrasyonu sorunlarını giderebilirsiniz.",
+		"description": "Komutunuz VSCode terminal kabuk entegrasyonu olmadan çalıştırılıyor. Bu uyarıyı gizlemek için <settingsLink>Dorjear Code ayarları</settingsLink>'nın <strong>Terminal</strong> bölümünden kabuk entegrasyonunu devre dışı bırakabilir veya aşağıdaki bağlantıyı kullanarak VSCode terminal entegrasyonu sorunlarını giderebilirsiniz.",
 		"troubleshooting": "Kabuk entegrasyonu belgelerini görmek için buraya tıklayın."
 	},
 	"ask": {

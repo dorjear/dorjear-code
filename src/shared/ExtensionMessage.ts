@@ -10,14 +10,14 @@ import type {
 	OrganizationAllowList,
 	CloudUserInfo,
 	ShareVisibility,
-} from "@roo-code/types"
+} from "@dorjear-code/types"
 
 import { GitCommit } from "../utils/git"
 
 import { McpServer } from "./mcp"
 import { Mode } from "./modes"
 import { RouterModels } from "./api"
-import type { MarketplaceItem } from "@roo-code/types"
+import type { MarketplaceItem } from "@dorjear-code/types"
 
 // Type for marketplace installed metadata
 export interface MarketplaceInstalledMetadata {

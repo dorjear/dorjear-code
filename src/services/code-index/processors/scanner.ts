@@ -25,8 +25,8 @@ import {
 	BATCH_PROCESSING_CONCURRENCY,
 } from "../constants"
 import { isPathInIgnoredDirectory } from "../../glob/ignore-utils"
-import { TelemetryService } from "@roo-code/telemetry"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryService } from "@dorjear-code/telemetry"
+import { TelemetryEventName } from "@dorjear-code/types"
 import { sanitizeErrorMessage } from "../shared/validation-helpers"
 
 export class DirectoryScanner implements IDirectoryScanner {

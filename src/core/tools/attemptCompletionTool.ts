@@ -1,6 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk"
 
-import { TelemetryService } from "@roo-code/telemetry"
+import { TelemetryService } from "@dorjear-code/telemetry"
 
 import { Task } from "../task/Task"
 import {

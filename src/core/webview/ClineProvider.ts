@@ -28,9 +28,9 @@ import {
 	openRouterDefaultModelId,
 	glamaDefaultModelId,
 	ORGANIZATION_ALLOW_ALL,
-} from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
-import { CloudService, getRooCodeApiUrl } from "@roo-code/cloud"
+} from "@dorjear-code/types"
+import { TelemetryService } from "@dorjear-code/telemetry"
+import { CloudService, getRooCodeApiUrl } from "@dorjear-code/cloud"
 
 import { t } from "../../i18n"
 import { setPanel } from "../../activate/registerCommands"
@@ -695,7 +695,7 @@ export class ClineProvider
 						window.AUDIO_BASE_URI = "${audioUri}"
 						window.MATERIAL_ICONS_BASE_URI = "${materialIconsUri}"
 					</script>
-					<title>Roo Code</title>
+					<title>Dorjear Code</title>
 				</head>
 				<body>
 					<div id="root"></div>
@@ -768,7 +768,7 @@ export class ClineProvider
 				window.AUDIO_BASE_URI = "${audioUri}"
 				window.MATERIAL_ICONS_BASE_URI = "${materialIconsUri}"
 			</script>
-            <title>Roo Code</title>
+            <title>Dorjear Code</title>
           </head>
           <body>
             <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -1013,21 +1013,21 @@ export class ClineProvider
 		// Get platform-specific application data directory
 		let mcpServersDir: string
 		if (process.platform === "win32") {
-			// Windows: %APPDATA%\Roo-Code\MCP
-			mcpServersDir = path.join(os.homedir(), "AppData", "Roaming", "Roo-Code", "MCP")
+			// Windows: %APPDATA%\dorjear-code\MCP
+			mcpServersDir = path.join(os.homedir(), "AppData", "Roaming", "dorjear-code", "MCP")
 		} else if (process.platform === "darwin") {
 			// macOS: ~/Documents/Cline/MCP
 			mcpServersDir = path.join(os.homedir(), "Documents", "Cline", "MCP")
 		} else {
 			// Linux: ~/.local/share/Cline/MCP
-			mcpServersDir = path.join(os.homedir(), ".local", "share", "Roo-Code", "MCP")
+			mcpServersDir = path.join(os.homedir(), ".local", "share", "dorjear-code", "MCP")
 		}
 
 		try {
 			await fs.mkdir(mcpServersDir, { recursive: true })
 		} catch (error) {
 			// Fallback to a relative path if directory creation fails
-			return path.join(os.homedir(), ".roo-code", "mcp")
+			return path.join(os.homedir(), ".dorjear-code", "mcp")
 		}
 		return mcpServersDir
 	}
@@ -1828,7 +1828,7 @@ export class ClineProvider
 
 		const packageJSON = this.context.extension?.packageJSON
 
-		// Get Roo Code Cloud authentication state
+		// Get Dorjear Code Cloud authentication state
 		let cloudIsAuthenticated: boolean | undefined
 
 		try {

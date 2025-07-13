@@ -4,7 +4,7 @@ import * as os from "os"
 import * as vscode from "vscode"
 import { z } from "zod"
 
-import { CloudService, getClerkBaseUrl, PRODUCTION_CLERK_BASE_URL } from "@roo-code/cloud"
+import { CloudService, getClerkBaseUrl, PRODUCTION_CLERK_BASE_URL } from "@dorjear-code/cloud"
 import { Package } from "../../shared/package"
 import { t } from "../../i18n"
 
@@ -160,8 +160,8 @@ export class MdmService {
 
 			case "linux":
 			default:
-				// Linux: /etc/roo-code/mdm.json or mdm.dev.json
-				return `/etc/roo-code/${configFileName}`
+				// Linux: /etc/dorjear-code/mdm.json or mdm.dev.json
+				return `/etc/dorjear-code/${configFileName}`
 		}
 	}
 

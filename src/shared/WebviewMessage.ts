@@ -7,8 +7,8 @@ import type {
 	InstallMarketplaceItemOptions,
 	MarketplaceItem,
 	ShareVisibility,
-} from "@roo-code/types"
-import { marketplaceItemSchema } from "@roo-code/types"
+} from "@dorjear-code/types"
+import { marketplaceItemSchema } from "@dorjear-code/types"
 
 import { Mode } from "./modes"
 

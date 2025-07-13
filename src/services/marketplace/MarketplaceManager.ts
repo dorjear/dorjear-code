@@ -4,11 +4,11 @@ import * as path from "path"
 import * as yaml from "yaml"
 import { RemoteConfigLoader } from "./RemoteConfigLoader"
 import { SimpleInstaller } from "./SimpleInstaller"
-import type { MarketplaceItem, MarketplaceItemType } from "@roo-code/types"
+import type { MarketplaceItem, MarketplaceItemType } from "@dorjear-code/types"
 import { GlobalFileNames } from "../../shared/globalFileNames"
 import { ensureSettingsDirectoryExists } from "../../utils/globalContext"
 import { t } from "../../i18n"
-import { TelemetryService } from "@roo-code/telemetry"
+import { TelemetryService } from "@dorjear-code/telemetry"
 
 export class MarketplaceManager {
 	private configLoader: RemoteConfigLoader

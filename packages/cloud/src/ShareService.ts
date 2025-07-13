@@ -1,6 +1,6 @@
 import * as vscode from "vscode"
 
-import { shareResponseSchema } from "@roo-code/types"
+import { shareResponseSchema } from "@dorjear-code/types"
 import { getRooCodeApiUrl } from "./Config"
 import type { AuthService } from "./auth"
 import type { SettingsService } from "./SettingsService"

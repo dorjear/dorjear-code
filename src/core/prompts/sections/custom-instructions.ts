@@ -3,7 +3,7 @@ import path from "path"
 import * as os from "os"
 import { Dirent } from "fs"
 
-import { isLanguage } from "@roo-code/types"
+import { isLanguage } from "@dorjear-code/types"
 
 import { LANGUAGES } from "../../../shared/language"
 import { getRooDirectoriesForCwd, getGlobalRooDirectory } from "../../../services/roo-config"

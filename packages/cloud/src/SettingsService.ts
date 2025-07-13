@@ -1,4 +1,4 @@
-import type { OrganizationAllowList, OrganizationSettings } from "@roo-code/types"
+import type { OrganizationAllowList, OrganizationSettings } from "@dorjear-code/types"
 
 /**
  * Interface for settings services that provide organization settings

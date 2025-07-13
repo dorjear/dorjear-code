@@ -41,7 +41,7 @@ vi.mock("../Config", () => ({
 
 // Mock utils
 vi.mock("../utils", () => ({
-	getUserAgent: () => "Roo-Code 1.0.0",
+	getUserAgent: () => "dorjear-code 1.0.0",
 }))
 
 describe("ShareService", () => {
@@ -90,7 +90,7 @@ describe("ShareService", () => {
 				headers: {
 					"Content-Type": "application/json",
 					Authorization: "Bearer session-token",
-					"User-Agent": "Roo-Code 1.0.0",
+					"User-Agent": "dorjear-code 1.0.0",
 				},
 				body: JSON.stringify({ taskId: "task-123", visibility: "organization" }),
 				signal: expect.any(AbortSignal),
@@ -118,7 +118,7 @@ describe("ShareService", () => {
 				headers: {
 					"Content-Type": "application/json",
 					Authorization: "Bearer session-token",
-					"User-Agent": "Roo-Code 1.0.0",
+					"User-Agent": "dorjear-code 1.0.0",
 				},
 				body: JSON.stringify({ taskId: "task-123", visibility: "public" }),
 				signal: expect.any(AbortSignal),
@@ -145,7 +145,7 @@ describe("ShareService", () => {
 				headers: {
 					"Content-Type": "application/json",
 					Authorization: "Bearer session-token",
-					"User-Agent": "Roo-Code 1.0.0",
+					"User-Agent": "dorjear-code 1.0.0",
 				},
 				body: JSON.stringify({ taskId: "task-123", visibility: "organization" }),
 				signal: expect.any(AbortSignal),

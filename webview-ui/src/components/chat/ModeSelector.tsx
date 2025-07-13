@@ -8,9 +8,9 @@ import { vscode } from "@/utils/vscode"
 import { useExtensionState } from "@/context/ExtensionStateContext"
 import { useAppTranslation } from "@/i18n/TranslationContext"
 import { Mode, getAllModes } from "@roo/modes"
-import { ModeConfig, CustomModePrompts } from "@roo-code/types"
+import { ModeConfig, CustomModePrompts } from "@dorjear-code/types"
 import { telemetryClient } from "@/utils/TelemetryClient"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryEventName } from "@dorjear-code/types"
 
 interface ModeSelectorProps {
 	value: Mode

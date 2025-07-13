@@ -3,12 +3,12 @@
 	"profilePicture": "Zdjęcie profilowe",
 	"logOut": "Wyloguj",
 	"testApiAuthentication": "Testuj uwierzytelnianie API",
-	"signIn": "Połącz z Roo Code Cloud",
+	"signIn": "Połącz z Dorjear Code Cloud",
 	"connect": "Połącz",
-	"cloudBenefitsTitle": "Połącz z Roo Code Cloud",
+	"cloudBenefitsTitle": "Połącz z Dorjear Code Cloud",
 	"cloudBenefitsSubtitle": "Synchronizuj swoje prompty i telemetrię, aby włączyć:",
 	"cloudBenefitHistory": "Historia zadań online",
 	"cloudBenefitSharing": "Funkcje udostępniania i współpracy",
 	"cloudBenefitMetrics": "Metryki użycia oparte na zadaniach, tokenach i kosztach",
-	"visitCloudWebsite": "Odwiedź Roo Code Cloud"
+	"visitCloudWebsite": "Odwiedź Dorjear Code Cloud"
 }

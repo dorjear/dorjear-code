@@ -10,12 +10,12 @@ import { LRUCache } from "lru-cache"
 
 import { useDebounceEffect } from "@src/utils/useDebounceEffect"
 
-import type { ClineAsk, ClineMessage } from "@roo-code/types"
+import type { ClineAsk, ClineMessage } from "@dorjear-code/types"
 
 import { ClineSayBrowserAction, ClineSayTool, ExtensionMessage } from "@roo/ExtensionMessage"
 import { McpServer, McpTool } from "@roo/mcp"
 import { findLast } from "@roo/array"
-import { FollowUpData, SuggestionItem } from "@roo-code/types"
+import { FollowUpData, SuggestionItem } from "@dorjear-code/types"
 import { combineApiRequests } from "@roo/combineApiRequests"
 import { combineCommandSequences } from "@roo/combineCommandSequences"
 import { getApiMetrics } from "@roo/getApiMetrics"

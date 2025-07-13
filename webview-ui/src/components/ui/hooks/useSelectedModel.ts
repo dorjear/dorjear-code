@@ -32,7 +32,7 @@ import {
 	litellmDefaultModelId,
 	claudeCodeDefaultModelId,
 	claudeCodeModels,
-} from "@roo-code/types"
+} from "@dorjear-code/types"
 
 import type { RouterModels } from "@roo/api"
 

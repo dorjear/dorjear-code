@@ -1,5 +1,5 @@
 {
-	"name": "roo-cline",
+	"name": "dorjear-cline",
 	"displayName": "%extension.displayName%",
 	"description": "%extension.description%",
 	"publisher": "RooVeterinaryInc",
@@ -14,13 +14,13 @@
 		"node": "20.19.2"
 	},
 	"author": {
-		"name": "Roo Code"
+		"name": "Dorjear Code"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/RooCodeInc/Roo-Code"
+		"url": "https://github.com/RooCodeInc/dorjear-code"
 	},
-	"homepage": "https://github.com/RooCodeInc/Roo-Code",
+	"homepage": "https://github.com/RooCodeInc/dorjear-code",
 	"categories": [
 		"AI",
 		"Chat",
@@ -42,7 +42,7 @@
 		"sonnet",
 		"ai",
 		"llama",
-		"roo code",
+		"dorjear code",
 		"roocode"
 	],
 	"activationEvents": [
@@ -395,10 +395,10 @@
 		"@mistralai/mistralai": "^1.3.6",
 		"@modelcontextprotocol/sdk": "^1.9.0",
 		"@qdrant/js-client-rest": "^1.14.0",
-		"@roo-code/cloud": "workspace:^",
-		"@roo-code/ipc": "workspace:^",
-		"@roo-code/telemetry": "workspace:^",
-		"@roo-code/types": "workspace:^",
+		"@dorjear-code/cloud": "workspace:^",
+		"@dorjear-code/ipc": "workspace:^",
+		"@dorjear-code/telemetry": "workspace:^",
+		"@dorjear-code/types": "workspace:^",
 		"@types/lodash.debounce": "^4.0.9",
 		"@vscode/codicons": "^0.0.36",
 		"async-mutex": "^0.5.0",
@@ -458,9 +458,9 @@
 		"zod": "^3.25.61"
 	},
 	"devDependencies": {
-		"@roo-code/build": "workspace:^",
-		"@roo-code/config-eslint": "workspace:^",
-		"@roo-code/config-typescript": "workspace:^",
+		"@dorjear-code/build": "workspace:^",
+		"@dorjear-code/config-eslint": "workspace:^",
+		"@dorjear-code/config-typescript": "workspace:^",
 		"@types/clone-deep": "^4.0.4",
 		"@types/debug": "^4.1.12",
 		"@types/diff": "^5.2.1",

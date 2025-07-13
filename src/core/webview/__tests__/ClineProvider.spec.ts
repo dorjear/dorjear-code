@@ -4,8 +4,8 @@ import Anthropic from "@anthropic-ai/sdk"
 import * as vscode from "vscode"
 import axios from "axios"
 
-import { type ProviderSettingsEntry, type ClineMessage, ORGANIZATION_ALLOW_ALL } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import { type ProviderSettingsEntry, type ClineMessage, ORGANIZATION_ALLOW_ALL } from "@dorjear-code/types"
+import { TelemetryService } from "@dorjear-code/telemetry"
 
 import { ExtensionMessage, ExtensionState } from "../../../shared/ExtensionMessage"
 import { defaultModeSlug } from "../../../shared/modes"
@@ -312,7 +312,7 @@ vi.mock("../diff/strategies/multi-search-replace", () => ({
 	})),
 }))
 
-vi.mock("@roo-code/cloud", () => ({
+vi.mock("@dorjear-code/cloud", () => ({
 	CloudService: {
 		hasInstance: vi.fn().mockReturnValue(true),
 		get instance() {
@@ -2246,7 +2246,7 @@ describe("getTelemetryProperties", () => {
 
 		test("includes cloud authentication property when user is authenticated", async () => {
 			// Import the CloudService mock and update it
-			const { CloudService } = await import("@roo-code/cloud")
+			const { CloudService } = await import("@dorjear-code/cloud")
 			const mockCloudService = {
 				isAuthenticated: vi.fn().mockReturnValue(true),
 			}
@@ -2264,7 +2264,7 @@ describe("getTelemetryProperties", () => {
 
 		test("includes cloud authentication property when user is not authenticated", async () => {
 			// Import the CloudService mock and update it
-			const { CloudService } = await import("@roo-code/cloud")
+			const { CloudService } = await import("@dorjear-code/cloud")
 			const mockCloudService = {
 				isAuthenticated: vi.fn().mockReturnValue(false),
 			}
@@ -2282,7 +2282,7 @@ describe("getTelemetryProperties", () => {
 
 		test("handles CloudService errors gracefully", async () => {
 			// Import the CloudService mock and update it to throw an error
-			const { CloudService } = await import("@roo-code/cloud")
+			const { CloudService } = await import("@dorjear-code/cloud")
 			Object.defineProperty(CloudService, "instance", {
 				get: vi.fn().mockImplementation(() => {
 					throw new Error("CloudService not available")
@@ -2303,7 +2303,7 @@ describe("getTelemetryProperties", () => {
 
 		test("handles CloudService method errors gracefully", async () => {
 			// Import the CloudService mock and update it
-			const { CloudService } = await import("@roo-code/cloud")
+			const { CloudService } = await import("@dorjear-code/cloud")
 			const mockCloudService = {
 				isAuthenticated: vi.fn().mockImplementation(() => {
 					throw new Error("Authentication check error")

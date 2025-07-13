@@ -3,7 +3,7 @@ import {
 	OrganizationAllowList,
 	OrganizationSettings,
 	organizationSettingsSchema,
-} from "@roo-code/types"
+} from "@dorjear-code/types"
 
 import type { SettingsService } from "./SettingsService"
 

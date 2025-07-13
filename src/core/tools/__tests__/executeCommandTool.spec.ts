@@ -1,6 +1,6 @@
 // npx vitest run src/core/tools/__tests__/executeCommandTool.spec.ts
 
-import type { ToolUsage } from "@roo-code/types"
+import type { ToolUsage } from "@dorjear-code/types"
 
 import { Task } from "../../task/Task"
 import { formatResponse } from "../../prompts/responses"

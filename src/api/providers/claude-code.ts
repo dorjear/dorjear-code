@@ -1,5 +1,5 @@
 import type { Anthropic } from "@anthropic-ai/sdk"
-import { claudeCodeDefaultModelId, type ClaudeCodeModelId, claudeCodeModels, type ModelInfo } from "@roo-code/types"
+import { claudeCodeDefaultModelId, type ClaudeCodeModelId, claudeCodeModels, type ModelInfo } from "@dorjear-code/types"
 import { type ApiHandler } from ".."
 import { ApiStreamUsageChunk, type ApiStream } from "../transform/stream"
 import { runClaudeCode } from "../../integrations/claude-code/run"

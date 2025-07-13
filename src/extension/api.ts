@@ -15,8 +15,8 @@ import {
 	IpcMessageType,
 	TaskCommandName,
 	TaskEvent,
-} from "@roo-code/types"
-import { IpcServer } from "@roo-code/ipc"
+} from "@dorjear-code/types"
+import { IpcServer } from "@dorjear-code/ipc"
 
 import { Package } from "../shared/package"
 import { getWorkspacePath } from "../utils/path"
@@ -50,7 +50,7 @@ export class API extends EventEmitter<RooCodeEvents> implements RooCodeAPI {
 				console.log(args)
 			}
 
-			this.logfile = path.join(getWorkspacePath(), "roo-code-messages.log")
+			this.logfile = path.join(getWorkspacePath(), "dorjear-code-messages.log")
 		} else {
 			this.log = () => {}
 		}

@@ -1,6 +1,6 @@
 {
-	"name": "@roo-code/build",
-	"description": "ESBuild utilities for Roo Code.",
+	"name": "@dorjear-code/build",
+	"description": "ESBuild utilities for Dorjear Code.",
 	"private": true,
 	"type": "module",
 	"main": "./dist/index.js",
@@ -16,8 +16,8 @@
 		"zod": "^3.25.61"
 	},
 	"devDependencies": {
-		"@roo-code/config-eslint": "workspace:^",
-		"@roo-code/config-typescript": "workspace:^",
+		"@dorjear-code/config-eslint": "workspace:^",
+		"@dorjear-code/config-typescript": "workspace:^",
 		"@types/node": "20.x",
 		"vitest": "^3.2.3"
 	}

@@ -12,8 +12,8 @@ try {
 	console.warn("Failed to load environment variables:", e)
 }
 
-import { CloudService } from "@roo-code/cloud"
-import { TelemetryService, PostHogTelemetryClient } from "@roo-code/telemetry"
+import { CloudService } from "@dorjear-code/cloud"
+import { TelemetryService, PostHogTelemetryClient } from "@dorjear-code/telemetry"
 
 import "./utils/path" // Necessary to have access to String.prototype.toPosix.
 import { createOutputChannelLogger, createDualLogger } from "./utils/outputChannelLogger"
@@ -74,7 +74,7 @@ export async function activate(context: vscode.ExtensionContext) {
 	// Create logger for cloud services
 	const cloudLogger = createDualLogger(createOutputChannelLogger(outputChannel))
 
-	// Initialize Roo Code Cloud service.
+	// Initialize Dorjear Code Cloud service.
 	await CloudService.createInstance(context, {
 		stateChanged: () => ClineProvider.getVisibleInstance()?.postStateToWebview(),
 		log: cloudLogger,

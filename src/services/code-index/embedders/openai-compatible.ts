@@ -9,8 +9,8 @@ import {
 import { getDefaultModelId, getModelQueryPrefix } from "../../../shared/embeddingModels"
 import { t } from "../../../i18n"
 import { withValidationErrorHandling, HttpError, formatEmbeddingError } from "../shared/validation-helpers"
-import { TelemetryEventName } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import { TelemetryEventName } from "@dorjear-code/types"
+import { TelemetryService } from "@dorjear-code/telemetry"
 
 interface EmbeddingItem {
 	embedding: string | number[]

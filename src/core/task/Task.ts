@@ -22,9 +22,9 @@ import {
 	TelemetryEventName,
 	TodoItem,
 	getApiProtocol,
-} from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
-import { CloudService } from "@roo-code/cloud"
+} from "@dorjear-code/types"
+import { TelemetryService } from "@dorjear-code/telemetry"
+import { CloudService } from "@dorjear-code/cloud"
 
 // api
 import { ApiHandler, ApiHandlerCreateMessageMetadata, buildApiHandler } from "../../api"

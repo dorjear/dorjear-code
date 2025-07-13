@@ -3,8 +3,8 @@ import {
 	type TelemetryEvent,
 	rooCodeTelemetryEventSchema,
 	type ClineMessage,
-} from "@roo-code/types"
-import { BaseTelemetryClient } from "@roo-code/telemetry"
+} from "@dorjear-code/types"
+import { BaseTelemetryClient } from "@dorjear-code/telemetry"
 
 import { getRooCodeApiUrl } from "./Config"
 import type { AuthService } from "./auth"

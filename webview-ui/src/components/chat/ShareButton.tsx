@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from "react"
 import { useTranslation } from "react-i18next"
 
-import type { HistoryItem, ShareVisibility } from "@roo-code/types"
-import { TelemetryEventName } from "@roo-code/types"
+import type { HistoryItem, ShareVisibility } from "@dorjear-code/types"
+import { TelemetryEventName } from "@dorjear-code/types"
 
 import { vscode } from "@/utils/vscode"
 import { telemetryClient } from "@/utils/TelemetryClient"

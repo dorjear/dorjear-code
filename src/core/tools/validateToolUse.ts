@@ -1,4 +1,4 @@
-import type { ToolName, ModeConfig } from "@roo-code/types"
+import type { ToolName, ModeConfig } from "@dorjear-code/types"
 
 import { Mode, isToolAllowedForMode } from "../../shared/modes"
 

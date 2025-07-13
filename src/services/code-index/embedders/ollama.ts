@@ -4,8 +4,8 @@ import { getModelQueryPrefix } from "../../../shared/embeddingModels"
 import { MAX_ITEM_TOKENS } from "../constants"
 import { t } from "../../../i18n"
 import { withValidationErrorHandling, sanitizeErrorMessage } from "../shared/validation-helpers"
-import { TelemetryService } from "@roo-code/telemetry"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryService } from "@dorjear-code/telemetry"
+import { TelemetryEventName } from "@dorjear-code/types"
 
 /**
  * Implements the IEmbedder interface using a local Ollama instance.

@@ -6,8 +6,8 @@ import type {
 	OrganizationAllowList,
 	ClineMessage,
 	ShareVisibility,
-} from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+} from "@dorjear-code/types"
+import { TelemetryService } from "@dorjear-code/telemetry"
 
 import { CloudServiceCallbacks } from "./types"
 import type { AuthService } from "./auth"
