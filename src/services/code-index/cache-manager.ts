@@ -3,8 +3,8 @@ import { createHash } from "crypto"
 import { ICacheManager } from "./interfaces/cache"
 import debounce from "lodash.debounce"
 import { safeWriteJson } from "../../utils/safeWriteJson"
-import { TelemetryService } from "@roo-code/telemetry"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryService } from "@dorjear-code/telemetry"
+import { TelemetryEventName } from "@dorjear-code/types"
 
 /**
  * Manages the cache for code indexing
