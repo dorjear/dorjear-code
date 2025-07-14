@@ -15,7 +15,7 @@ export const EXTERNAL_LINKS = {
 	PRIVACY_POLICY_EXTENSION: "https://github.com/RooCodeInc/dorjear-code/blob/main/PRIVACY.md",
 	INTEGRATIONS: "https://docs.roocode.com/community",
 	TUTORIALS: "https://docs.roocode.com/tutorial-videos",
-	MARKETPLACE: "https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline",
+	MARKETPLACE: "https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.dorjear-cline",
 	SECURITY: "https://trust.roocode.com",
 }
 
